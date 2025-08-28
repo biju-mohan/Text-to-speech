@@ -7,8 +7,8 @@ class SpeechMagicApp {
     constructor() {
         // Initialize Supabase client
         this.supabase = window.supabase.createClient(
-            'https://your-project.supabase.co', // Replace with your Supabase URL
-            'your-anon-key-here' // Replace with your Supabase anon key
+            'REPLACE_WITH_YOUR_SUPABASE_URL', // Replace with your Supabase URL
+            'REPLACE_WITH_YOUR_ANON_KEY' // Replace with your Supabase anon key
         );
 
         // Application state
